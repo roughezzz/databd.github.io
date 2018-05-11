@@ -11,6 +11,11 @@
 	width: 215px;
 	height: 245px;
 	border-radius: 8px;
+	transition: all 0.5s;
+	}
+
+	.photos img:hover{
+		transform: scale(1.1)
 	}
 
 
@@ -45,6 +50,7 @@
 	}
 	
 }
+
 @media all and (max-width: 1400px) {
 	.photos {
 		margin-left: -1100px;
